@@ -1,0 +1,51 @@
+31.10.2018
+MPEG-4  i VP9 sprawdzić te key frames (inne opcje, co ile klatek klatka kluczowa)
+stopień kompresji, jakie są parametry tych filmów 
+
+https://superuser.com/questions/908280/what-is-the-correct-way-to-fix-keyframes-in-ffmpeg-for-dash/1098329#1098329
+libx264: -g X -keyint_min X (and optionally add -force_key_frames "expr:gte(t,n_forced*N)")
+libx265: -x265-params "keyint=X:min-keyint=X"
+libvpx-vp9: -g X
+where X is the interval in frames and N is the interval in seconds. For example, for a 2-second interval with a 30fps video, X = 60 and N = 2.
+
+5.11.2018
+większe odległości - większe różnice w kompresji i odtworzeniu
+na razie jedna odległość, sprawdzić dla innych
+
+mpeg4 
+- bardzo ładnie się odtwarzają wszystkie filmy
+- GS_1_mpeg4, spoko, wyższe takie samo natężenie
+- Shimobaba_1_mpeg4, artefakty, mocowo lepiej
+- nie widać klatek kluczowych w odtworzeniu
+
+vp9 
+- problem z odtwarzaniem, lagi
+- vlc nie daje rady z VP9
+- MPC też kiepsko
+- widać klatki kluczowe (?)
+
+TODO: porównać w Gimpie klatki Shimbaba Vp9 i mpeg4 ze środka i z brzegu
+GS - na brzegach to już nie hologram a jakieś siateczki od kodeka, też porównać - dużo beznadziejnych makrobloków na brzegach i na środku też widać
+odpuścić VP9, bo się nie nadaje
+
+MPEG4 - skupić się na tym
+taśma dwustronna do stoliczka
+
+AV1 do sprawdzenia
+powtórzenie dla drugiej odległości
+
+12.11.2018
+361 kompresja:
+- wszystko się ładnie odtwarza
+542 kompresja:
+- tak samo, wszystko ok
+
+AV1 https://trac.ffmpeg.org/wiki/Encode/AV1
+ffmpeg -i input.mp4 -c:v libaom-av1 -strict -2 output.avi
+ffmpeg -f image2 -r 6 -i holo_%04d_iter_0361_0004.bmp -c:v libaom-av1 -strict-experimental -y GS.mkv
+ffmpeg -f image2 -r 6 -i holo_%04d_iter_0361_0004.bmp -vcodec mpeg4 -qscale:v 25 -y movie_25.mp4
+
+F:\Studia\Photonics\Masters\CompCGH\ABCD_Shimobaba_361mm\hologramy
+F:\Studia\Photonics\Masters\CompCGH\ABCD_Shimobaba_542mm
+F:\Studia\Photonics\Masters\CompCGH\ABCD_small_GS_542mm
+F:\Studia\Photonics\Masters\CompCGH\ABCD__GS_361mm

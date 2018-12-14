@@ -1,0 +1,16 @@
+
+AV1:
+- mkv format dla plików kompresowanych av1 jest do bani
+- mp4 format (kontener) jest spoko, kompresja jest nawet ok - można modyfikować stopień, ale to by się chyba liczyło z miesiąc -> można sprawdzić
+- jakość jest gorsza od mpeg4, mamy makrobloki, większe zaszumienie (spekle)
+
+małe literki/duże literki:
+- małe literki, lepsza kompresja plików, mniejsze rozmiary (mniej informacji do zakodowania)
+- duże literki dobrze wyglądają
+
+ogólne wnioski:
+- jak zostaje jedna literka to cała energia się w niej skupia (jak literki wyjeżdżają z pola widzenia to stają się jaśniejsze te, które pozostają)
+- mam strasznie brudny komputer :(
+- Shimobaba daje lepsze rezultaty
+- bez uśredniania spekli odtworzenia są brzydsze
+

@@ -1,0 +1,25 @@
+path	holo	ABCD	Q [MPEG4]	d [mm]	x	y	std
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\GS_361_q1_small_crop.bmp	GS	small	1	361	50	120	34,1484446
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\GS_361_q20_small_crop.bmp	GS	small	20	361	50	120	28,8275027
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\GS_361_q31_small_crop.bmp	GS	small	31	361	50	120	23,2473774
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\Shimobaba_361_q1_small_crop.bmp	Shimobaba	small	1	361	50	120	73,8745658
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\Shimobaba_361_q20_small_crop.bmp	Shimobaba	small	20	361	50	120	68,5131439
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\Shimobaba_361_q31_small_crop.bmp	Shimobaba	small	31	361	50	120	57,4827156
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\GS_542_q1_small_1_crop.bmp	GS	small	1	542	60	150	15,6011515
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\GS_542_q20_small_2_crop.bmp	GS	small	20	542	60	150	13,6726030
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\GS_542_q31_small_1_crop.bmp	GS	small	31	542	60	150	11,0482861
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\Shimobaba_542_small_q1_1_crop.bmp	Shimobaba	small	1	542	60	150	87,0821986
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\Shimobaba_542_small_q20_1_crop.bmp	Shimobaba	small	20	542	60	150	67,9805632
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Small\Shimobaba_542_small_q31_1_crop.bmp	Shimobaba	small	31	542	60	150	52,8906617
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\GS_361_q1_large_crop.bmp	GS	large	1	361	100	200	5,2064916
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\GS_361_q20_large_crop.bmp	GS	large	20	361	100	200	4,5363534
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\GS_361_q31_large_crop.bmp	GS	large	31	361	100	200	2,7000166
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\Shimobaba_361_q1_large_crop.bmp	Shimobaba	large	1	361	100	200	29,6619887
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\Shimobaba_361_q20_large_crop.bmp	Shimobaba	large	20	361	100	200	17,4274736
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\Shimobaba_361_q31_large_crop.bmp	Shimobaba	large	31	361	100	200	15,1775172
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\GS_542_q1_2_crop.bmp	GS	large	1	542	125	300	4,3600259
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\GS_542_q20_2_crop.bmp	GS	large	20	542	125	300	4,3726055
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\GS_542_q31_2_crop.bmp	GS	large	31	542	125	300	3,6056773
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\Shimobaba_542_q1_1_crop.bmp	Shimobaba	large	1	542	120	300	21,5700644
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\Shimobaba_542_q20_1_crop.bmp	Shimobaba	large	20	542	120	300	20,1985495
+F:\Studia\Photonics\Masters\CompCGH\Zrzuty\Crops\Large\Crops\Shimobaba_542_q31_1_crop.bmp	Shimobaba	large	31	542	120	300	18,3212576
